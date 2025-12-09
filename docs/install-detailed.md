@@ -39,7 +39,7 @@ Choose your operating system below:
 > This step is the same for all operating systems.
 
 1. Download the official add-on package (`.zip`):  
-   [Download Scan2brusH Add-on](https://bit.ly/scan2brush){ .md-button .md-button--primary .s2b-btn }
+   [Download Scan2brusH Add-on](https://bit.ly/scan2brush-addon){ .md-button .md-button--primary .s2b-btn }
 
 2. **Do not unzip** — Blender installs add-ons directly from `.zip`.
 
