@@ -1,0 +1,13 @@
+/* Decentní menší tlačítka pro odkazy */
+
+.md-typeset .md-button.s2b-btn {
+  font-size: 0.8rem;        /* menší text */
+  padding: 0.15rem 0.6rem;  /* méně nafouklé */
+  border-radius: 0.25rem;   /* lehce zakulacené */
+  line-height: 1.2;
+}
+
+/* Primární tlačítko – jen trochu zvýraznit, ne koblížek */
+.md-typeset .md-button.s2b-btn.md-button--primary {
+  box-shadow: none;
+}

@@ -1,0 +1,32 @@
+site_name: Scan2brusH Documentation
+site_description: Online documentation for the Scan2brusH™ Dental Workflow Module.
+site_author: Pavel Gruber
+repo_url: https://github.com/your-org/scan2brush
+
+theme:
+  name: material
+  language: en
+  features:
+    - content.tabs.link
+    - content.tabs.persist
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - Installation:
+      - Quick Installation: install-quick.md
+      - Detailed Installation: install-detailed.md
+  - Usage: usage.md
+  - Troubleshooting: troubleshooting.md
+  - Reference Dental Scan: reference-scan.md
+
+extra_css:
+  - css/extra.css
